@@ -1,0 +1,54 @@
+/* styles.css: Stylesheet for TheDoLab */
+/* Author:  Timothy Do */
+
+* {
+        font-family: Verdana;
+        
+}
+body {
+        background-color: Black;
+        text-align: center;
+        margin-left: 5%;
+        margin-right: 5%;
+        color: white;
+        transition: 0.25s;
+}
+h1 {
+        font-size: 3em;
+}
+h2 {
+        font-size: 2.5em;
+}
+h3 {
+	font-size: 2em;
+}
+img {
+        border: 5px solid #FFF;
+}
+a {
+        color: blue;
+        opacity:100%;
+}
+a:hover {
+        color: yellow;
+        opacity: 80%;
+        transition: .25s;
+}
+button{
+        background-color: white;
+        border: 5px solid #FFF;
+        border-radius: 50%;
+        font-size: 2.5em;
+}
+button:hover{
+        background-color: gray;
+        transition: .25s;
+        border-radius: 25%;
+}
+button:active{
+        background-color: black;
+        transition: .25s;
+        border-radius: 50%;
+
+}
+
