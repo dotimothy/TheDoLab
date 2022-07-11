@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!---TheDoLab Video Tour Code --->
+<!---@Author Timothy Do--->
+
+<head>
+	<title>TheDoLab</title>
+	<link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+	<link rel="stylesheet" href="styles.css"/>
+    <script src="./thedolab.js"></script>
+	<meta charset="UTF-8">
+</head>
+
+<style>
+	iframe {
+		position: absolute;
+		left: 0;
+	}
+</style>
+
+<script>
+	function closeTour() {
+		setTimeout(function() {
+			location.replace('./index.html');
+		},7500);
+	}
+</script>
+
+<body onload="closeTour()">
+	<h1>TheDoLab Video Tour!</h1>
+	<iframe width="100%" height="100%" src="https://www.youtube.com/embed/Cy1BeNyXhNU?loop=1&autoplay=1" title="TheDoLab" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loop></iframe>
+</body>
+
+
+<footer>
+    <button style="position:fixed;top:1%;right:2%" id="modeButton" onclick="toggleMode()">🌕</button>
+</footer>
