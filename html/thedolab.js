@@ -37,7 +37,7 @@ function updateTime() {
 
     //localizing to PST
     var offset = d.getTimezoneOffset()/60;
-    var delPST = offset - 7;
+    var delPST = offset - 8;
     var localhour = d.getHours();
     var hour = localhour + delPST;
     //puts it back if timezone is ahead

